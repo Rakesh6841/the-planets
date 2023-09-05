@@ -1,39 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <!-- LOGO -->
+      <!-- LOGO -->
+      <a href="/index.html">
         <div class="logo">The Planets</div>
-    
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-    
-            <!-- USING CHECKBOX HACK -->
-            <input type="checkbox" id="checkbox_toggle" />
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-    
-            <!-- NAVIGATION MENUS -->
-            <div class="menu">
-                <li><a href="/planets/mercury.html">MERCURY</a></li>
-                <li><a href="/planets/venus.html">VENUS</a></li>
-                <li><a href="/planets/earth.html">EARTH</a></li>
-                <li><a href="/planets/mars.html">MARS</a></li>
-                <li><a href="/planets/jupiter.html">JUPITER</a></li>
-                <li><a href="/planets/saturn.html">SATURN</a></li>
-                <li><a href="/planets/uranus.html">URANUS</a></li>
-                <li><a href="/planets/neptune.html">NEPTUNE</a></li>
-            </div>
-        </ul>
-    </nav>
-    <h1>Saturn</h1>
-</body>
+      </a>
 
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/planets/mercury.html">MERCURY</a></li>
+          <li><a href="/planets/venus.html">VENUS</a></li>
+          <li><a href="/planets/earth.html">EARTH</a></li>
+          <li><a href="/planets/mars.html">MARS</a></li>
+          <li><a href="/planets/jupiter.html">JUPITER</a></li>
+          <li><a href="/planets/saturn.html">SATURN</a></li>
+          <li><a href="/planets/uranus.html">URANUS</a></li>
+          <li><a href="/planets/neptune.html">NEPTUNE</a></li>
+        </div>
+      </ul>
+    </nav>
+    <hr />
+
+    <div class="main-content">
+      <div class="image">
+        <img src="/assets/planet-saturn.svg" alt="Planet Earth" />
+      </div>
+      <div class="description">
+        <h1>EARTH</h1>
+
+        <p class="text active" id="text1">
+          Earth is the third planet from the Sun and the only astronomical
+          object known to harbor life. This is enabled by Earth being a water
+          world, the only one in the Solar System sustaining liquid surface
+          water. Almost all of Earth's water is contained in its global ocean,
+          covering 70.8% of Earth's surface. The remaining 29.2% of Earth's
+          surface is land.
+        </p>
+        <p class="text" id="text2">This is text 2.</p>
+        <p class="text" id="text3">This is text 3.</p>
+        <p class="source">
+          Source:
+          <a href="https://en.wikipedia.org/wiki/Earth">Wikipedia</a>
+          <i class="fa-solid fa-square-up-right"></i>
+        </p>
+
+        <div class="switchButton">
+          <button id="button1">01 OVERVIEW</button>
+          <button id="button2">02 INTERNAL STRUCTURE</button>
+          <button id="button3">03 SURFACE GEOLOGY</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="info">
+        <p class="infoText">ROTATION TIME</p>
+        <h2>0.99 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">REVOLUTION TIME</p>
+        <h2>0.99 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">RADIUS</p>
+        <h2>0.99 DAYS</h2>
+      </div>
+      <div class="info">
+        <p class="infoText">AVERAGE TEMP.</p>
+        <h2>0.99 DAYS</h2>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/index.js"></script>
+  </body>
 </html>
