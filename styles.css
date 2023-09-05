@@ -204,6 +204,7 @@ button:hover {
 
 h2 {
   color: #fff;
+  margin-top: 2%;
 }
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
@@ -293,5 +294,9 @@ h2 {
   .info {
     text-align: center;
     margin-bottom: 8%;
+  }
+
+  h2{
+    margin-top: 5%;
   }
 }
